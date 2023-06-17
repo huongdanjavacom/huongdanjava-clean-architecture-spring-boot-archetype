@@ -5,7 +5,7 @@
 
   <groupId>com.huongdanjava</groupId>
   <artifactId>huongdanjava-clean-architecture-spring-boot-archetype</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
   <packaging>maven-archetype</packaging>
   <name>huongdanjava-clean-architecture-spring-boot-archetype</name>
   <description>Huong Dan Java - Clean Architecture using Spring Boot Maven Archetype project.</description>
