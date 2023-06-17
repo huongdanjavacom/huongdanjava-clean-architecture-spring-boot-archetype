@@ -1,0 +1,83 @@
+<archetype-descriptor
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+	name="${artifactId}">
+
+	<!--     db module -->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>db/src/main/java</directory>-->
+	<!--    </fileSet>-->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>db/src/test/java</directory>-->
+	<!--    </fileSet>-->
+	<!--    <fileSet filtered="true">-->
+	<!--      <directory>db/src/main/resources</directory>-->
+	<!--    </fileSet>-->
+
+	<!--     entities module -->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>entities/src/main/java</directory>-->
+	<!--    </fileSet>-->
+
+	<!--     rest module -->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>rest/src/main/java</directory>-->
+	<!--    </fileSet>-->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>rest/src/test/java</directory>-->
+	<!--    </fileSet>-->
+	<!--    <fileSet filtered="true">-->
+	<!--      <directory>rest/src/main/resources</directory>-->
+	<!--    </fileSet>-->
+
+	<!--     use-cases module -->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>use-cases/src/main/java</directory>-->
+	<!--    </fileSet>-->
+	<!--    <fileSet filtered="true" packaged="true">-->
+	<!--      <directory>use-cases/src/test/java</directory>-->
+	<!--    </fileSet>-->
+	<!--  </fileSets>-->
+
+	<modules>
+		<module dir="configuration">
+			<fileSets>
+				<fileSet filtered="true" packaged="true">
+					<directory>src/main/java</directory>
+				</fileSet>
+				<fileSet filtered="true">
+					<directory>src/main/resources</directory>
+				</fileSet>
+			</fileSets>
+		</module>
+		<module dir="db">
+			<fileSets>
+				<fileSet filtered="true" packaged="true">
+					<directory>src/main/java</directory>
+				</fileSet>
+			</fileSets>
+		</module>
+		<module dir="entities">
+			<fileSets>
+				<fileSet filtered="true" packaged="true">
+					<directory>src/main/java</directory>
+				</fileSet>
+			</fileSets>
+		</module>
+		<module dir="rest">
+			<fileSets>
+				<fileSet filtered="true" packaged="true">
+					<directory>src/main/java</directory>
+				</fileSet>
+			</fileSets>
+		</module>
+		<module dir="use-cases">
+			<fileSets>
+				<fileSet filtered="true" packaged="true">
+					<directory>src/main/java</directory>
+				</fileSet>
+			</fileSets>
+		</module>
+	</modules>
+</archetype-descriptor>
