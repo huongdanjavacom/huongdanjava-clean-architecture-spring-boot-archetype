@@ -4,42 +4,6 @@
 	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
 	name="${artifactId}">
 
-	<!--     db module -->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>db/src/main/java</directory>-->
-	<!--    </fileSet>-->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>db/src/test/java</directory>-->
-	<!--    </fileSet>-->
-	<!--    <fileSet filtered="true">-->
-	<!--      <directory>db/src/main/resources</directory>-->
-	<!--    </fileSet>-->
-
-	<!--     entities module -->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>entities/src/main/java</directory>-->
-	<!--    </fileSet>-->
-
-	<!--     rest module -->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>rest/src/main/java</directory>-->
-	<!--    </fileSet>-->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>rest/src/test/java</directory>-->
-	<!--    </fileSet>-->
-	<!--    <fileSet filtered="true">-->
-	<!--      <directory>rest/src/main/resources</directory>-->
-	<!--    </fileSet>-->
-
-	<!--     use-cases module -->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>use-cases/src/main/java</directory>-->
-	<!--    </fileSet>-->
-	<!--    <fileSet filtered="true" packaged="true">-->
-	<!--      <directory>use-cases/src/test/java</directory>-->
-	<!--    </fileSet>-->
-	<!--  </fileSets>-->
-
 	<modules>
 		<module dir="configuration">
 			<fileSets>
