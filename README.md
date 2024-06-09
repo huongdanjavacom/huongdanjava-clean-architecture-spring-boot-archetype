@@ -1,1 +1,2 @@
 # huongdanjava-clean-architecture-spring-boot-archetype
+See tutorial at [https://huongdanjava.com/initialize-spring-boot-project-following-clean-architecture-using-huongdanjava-clean-architecture-spring-boot-archetype-maven-archetype.html](https://huongdanjava.com/initialize-spring-boot-project-following-clean-architecture-using-huongdanjava-clean-architecture-spring-boot-archetype-maven-archetype.html)
